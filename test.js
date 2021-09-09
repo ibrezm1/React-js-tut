@@ -7,7 +7,3 @@ function ExampleComponent() {
     </div>
   )
 }
-
-
-$ git config --global user.name "ibrezm1"
-$ git config --global user.email ibrezm1@gmail.com
