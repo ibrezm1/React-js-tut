@@ -1,16 +1,23 @@
 {
-    "workbench.colorTheme": "Visual Studio Dark",
-    "editor.renderControlCharacters": true,
-    "editor.renderWhitespace": "all",
-    "files.associations": {
-      "*.js": "javascriptreact"
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2,
-    "prettier.semi": false,
-    "prettier.printWidth": 9999,
-    "prettier.arrowParens": "avoid",
-    "prettier.trailingComma": "none"
-  }
-  
+  "workbench.colorTheme": "Visual Studio Dark",
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+
+  // The following will hide the js and map files in the editor
+  "files.exclude": {
+    ".vscode": true,
+    "node_modules/": true,
+    "**/*.code-workspace": true
+  },
+
+  "prettier.semi": false,
+  "prettier.printWidth": 9999,
+  "prettier.arrowParens": "avoid",
+  "prettier.trailingComma": "none"
+}
